@@ -1,6 +1,6 @@
 package FactoryPattern.Classes;
 
-public class Multiple implements IOperator{
+public class Mul implements IOperator{
     @Override
     public double getResult(double a, double b) {
         return a*b;
