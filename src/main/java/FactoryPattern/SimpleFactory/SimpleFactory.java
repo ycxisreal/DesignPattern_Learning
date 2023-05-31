@@ -1,10 +1,10 @@
-package FactoryPattern.Factory;
+package FactoryPattern.SimpleFactory;
 
 import FactoryPattern.Classes.*;
 
 import java.lang.reflect.InvocationTargetException;
 
-public class Factory implements IFactory{
+public class SimpleFactory implements IFactory{
     @Override
     public IOperator getOperator(String o) {
         if(o == null)
@@ -21,7 +21,7 @@ public class Factory implements IFactory{
     }
     public IOperator getOperator(Class<? extends IOperator> clazz)
     {
-        IOperator obj = null;
+        IOperator obj;
         try {
             obj = clazz.getConstructor().newInstance();
             return obj;

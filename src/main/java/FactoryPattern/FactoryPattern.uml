@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/CodingRecourse/Java/Projects/DesignPattern/src/main/java/FactoryPattern</OriginalElement>
+  <nodes>
+    <node x="-580.5085714285714" y="411.5485714285715">FactoryPattern.FactoryStarter</node>
+    <node x="287.51428571428585" y="279.0">FactoryPattern.FactoryMethod.FactoryBasic</node>
+    <node x="-171.0" y="425.0">FactoryPattern.Classes.Sqrt</node>
+    <node x="271.0" y="666.0">FactoryPattern.SimpleFactory.IFactory</node>
+    <node x="-236.0" y="666.0">FactoryPattern.SimpleFactory.SimpleFactory</node>
+    <node x="402.8742857142858" y="44.0">FactoryPattern.FactoryMethod.Factory</node>
+    <node x="393.48" y="-87.48571428571427">FactoryPattern.FactoryMethod.IFactoryMethod</node>
+    <node x="627.777142857143" y="279.0">FactoryPattern.FactoryMethod.FactoryExtend</node>
+    <node x="-171.0" y="171.0">FactoryPattern.Classes.Sub</node>
+    <node x="-653.0" y="312.5">FactoryPattern.Classes.IOperator</node>
+    <node x="-171.0" y="298.0">FactoryPattern.Classes.Mul</node>
+    <node x="-171.0" y="44.0">FactoryPattern.Classes.Add</node>
+    <node x="-171.0" y="552.0">FactoryPattern.Classes.Div</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FactoryPattern.SimpleFactory.SimpleFactory" target="FactoryPattern.SimpleFactory.IFactory" relationship="REALIZATION">
+      <point x="211.0" y="-14.5" />
+      <point x="-211.0" y="0.0" />
+    </edge>
+    <edge source="FactoryPattern.FactoryMethod.FactoryExtend" target="FactoryPattern.FactoryMethod.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.5" />
+      <point x="838.777142857143" y="210.0" />
+      <point x="562.677" y="210.0" />
+      <point x="-1.4285714291872864E-4" y="48.5" />
+    </edge>
+    <edge source="FactoryPattern.FactoryMethod.FactoryBasic" target="FactoryPattern.FactoryMethod.Factory" relationship="GENERALIZATION">
+      <point x="-2.8571428578061386E-4" y="-34.0" />
+      <point x="392.01400000000007" y="210.0" />
+      <point x="562.677" y="210.0" />
+      <point x="-1.4285714291872864E-4" y="48.5" />
+    </edge>
+    <edge source="FactoryPattern.FactoryMethod.Factory" target="FactoryPattern.FactoryMethod.IFactoryMethod" relationship="REALIZATION">
+      <point x="-4.6971428571429215" y="-48.5" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="FactoryPattern.Classes.Sub" target="FactoryPattern.Classes.IOperator" relationship="REALIZATION">
+      <point x="-178.5" y="0.0" />
+      <point x="-218.0" y="219.5" />
+      <point x="-218.0" y="346.5" />
+      <point x="178.5" y="0.0" />
+    </edge>
+    <edge source="FactoryPattern.Classes.Sqrt" target="FactoryPattern.Classes.IOperator" relationship="REALIZATION">
+      <point x="-178.5" y="0.0" />
+      <point x="-218.0" y="473.5" />
+      <point x="-218.0" y="346.5" />
+      <point x="178.5" y="0.0" />
+    </edge>
+    <edge source="FactoryPattern.Classes.Div" target="FactoryPattern.Classes.IOperator" relationship="REALIZATION">
+      <point x="-178.5" y="0.0" />
+      <point x="-218.0" y="600.5" />
+      <point x="-218.0" y="346.5" />
+      <point x="178.5" y="0.0" />
+    </edge>
+    <edge source="FactoryPattern.Classes.Add" target="FactoryPattern.Classes.IOperator" relationship="REALIZATION">
+      <point x="-178.5" y="0.0" />
+      <point x="-218.0" y="92.5" />
+      <point x="-218.0" y="346.5" />
+      <point x="178.5" y="0.0" />
+    </edge>
+    <edge source="FactoryPattern.Classes.Mul" target="FactoryPattern.Classes.IOperator" relationship="REALIZATION">
+      <point x="-178.5" y="0.0" />
+      <point x="178.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="紧凑" zoom="0.6386861313868614" showDependencies="false" x="268.28571428570785" y="338.38857142857177" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
