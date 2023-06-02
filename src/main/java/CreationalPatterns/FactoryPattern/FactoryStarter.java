@@ -26,11 +26,19 @@ public class FactoryStarter {
         //利用接口中的常量来生成实现类
         IOperator o3 = factory.getOperator(IOperator.DIV);
         System.out.println("结果："+o3.getResult(in.nextDouble(),in.nextDouble()));
+        //利用接口中的常量加反射来生成实现类
+        IOperator o4;
+        try {
+            o4 = factory.getOperator(Class.forName(IOperator.MUL_CLASS).asSubclass(IOperator.class));
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("反射加接口常量结果："+o4.getResult(in.nextDouble(),in.nextDouble()));
         //使用工厂方法模式
         System.out.println("工厂方法模式:");
         IFactoryMethod factoryMethod = new Factory();
-        IOperator o4 = factoryMethod.getOperator(IOperator.SQRT);
+        IOperator o5 = factoryMethod.getOperator(IOperator.SQRT);
         double temp = in.nextDouble();
-        System.out.println("sqrt结果："+o4.getResult(temp,temp));
+        System.out.println("sqrt结果："+o5.getResult(temp,temp));
     }
 }

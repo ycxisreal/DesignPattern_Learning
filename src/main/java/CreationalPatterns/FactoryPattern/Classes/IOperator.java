@@ -7,4 +7,5 @@ public interface IOperator {
     String MUL = "mul";
     String DIV = "div";
     String SQRT = "Sqrt";
+    String MUL_CLASS = "CreationalPatterns.FactoryPattern.Classes.Mul";
 }

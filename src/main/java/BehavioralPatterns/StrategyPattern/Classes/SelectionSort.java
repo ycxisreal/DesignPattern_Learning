@@ -1,6 +1,6 @@
 package BehavioralPatterns.StrategyPattern.Classes;
 
-public class SelctionSort implements ISort{
+public class SelectionSort implements ISort{
     @Override
     public void Sort(int[] arr) {
         for(int i=0;i< arr.length-1;i++){
