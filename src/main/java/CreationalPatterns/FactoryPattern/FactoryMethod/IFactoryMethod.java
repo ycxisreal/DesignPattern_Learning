@@ -1,7 +1,7 @@
 package CreationalPatterns.FactoryPattern.FactoryMethod;
 
-import CreationalPatterns.FactoryPattern.Classes.IOperator;
+import CreationalPatterns.FactoryPattern.Classes.IOperator_fact;
 
 public interface IFactoryMethod {
-    IOperator getOperator(String o);
+    IOperator_fact getOperator(String o);
 }

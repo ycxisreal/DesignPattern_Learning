@@ -5,8 +5,8 @@ import CreationalPatterns.FactoryPattern.Classes.*;
 
 public class FactoryBasic extends Factory{
     @Override
-    public IOperator getOperator(String o) {
-        IOperator operator = null;
+    public IOperator_fact getOperator(String o) {
+        IOperator_fact operator = null;
         switch (o)
         {
             case "add"->operator = new Add();

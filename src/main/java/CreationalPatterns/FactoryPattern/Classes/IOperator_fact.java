@@ -1,6 +1,6 @@
 package CreationalPatterns.FactoryPattern.Classes;
 
-public interface IOperator {
+public interface IOperator_fact {
     double getResult(double a,double b);
     String ADD = "add";
     String SUB = "sub";

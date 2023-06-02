@@ -1,6 +1,6 @@
 package CreationalPatterns.FactoryPattern.Classes;
 
-public class Div implements IOperator{
+public class Div implements IOperator_fact {
     @Override
     public double getResult(double a, double b) {
         double result = 0;

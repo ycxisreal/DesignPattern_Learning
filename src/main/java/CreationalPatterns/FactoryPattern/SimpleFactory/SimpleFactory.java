@@ -7,10 +7,10 @@ import java.lang.reflect.InvocationTargetException;
 
 public class SimpleFactory implements IFactory{
     @Override
-    public IOperator getOperator(String o) {
+    public IOperator_fact getOperator(String o) {
         if(o == null)
             return null;
-        IOperator operator = null;
+        IOperator_fact operator = null;
         switch (o)
         {
             case "add"->operator = new Add();
@@ -20,9 +20,9 @@ public class SimpleFactory implements IFactory{
         }
         return operator;
     }
-    public IOperator getOperator(Class<? extends IOperator> clazz)
+    public IOperator_fact getOperator(Class<? extends IOperator_fact> clazz)
     {
-        IOperator obj;
+        IOperator_fact obj;
         try {
             obj = clazz.getConstructor().newInstance();
             return obj;
