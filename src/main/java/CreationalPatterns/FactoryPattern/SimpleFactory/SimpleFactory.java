@@ -1,6 +1,7 @@
-package FactoryPattern.SimpleFactory;
+package CreationalPatterns.FactoryPattern.SimpleFactory;
 
-import FactoryPattern.Classes.*;
+import CreationalPatterns.FactoryPattern.Classes.*;
+
 
 import java.lang.reflect.InvocationTargetException;
 

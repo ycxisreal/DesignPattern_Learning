@@ -1,7 +1,7 @@
-package FactoryPattern.FactoryMethod;
+package CreationalPatterns.FactoryPattern.FactoryMethod;
 
-import FactoryPattern.Classes.IOperator;
-import FactoryPattern.Classes.Sqrt;
+import CreationalPatterns.FactoryPattern.Classes.IOperator;
+import CreationalPatterns.FactoryPattern.Classes.Sqrt;
 
 public class FactoryExtend extends Factory {
     @Override

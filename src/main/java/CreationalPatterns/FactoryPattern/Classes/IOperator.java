@@ -1,4 +1,4 @@
-package FactoryPattern.Classes;
+package CreationalPatterns.FactoryPattern.Classes;
 
 public interface IOperator {
     double getResult(double a,double b);

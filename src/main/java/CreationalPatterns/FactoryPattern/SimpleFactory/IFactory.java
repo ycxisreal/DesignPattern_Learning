@@ -1,6 +1,6 @@
-package FactoryPattern.SimpleFactory;
+package CreationalPatterns.FactoryPattern.SimpleFactory;
 
-import FactoryPattern.Classes.IOperator;
+import CreationalPatterns.FactoryPattern.Classes.IOperator;
 
 public interface IFactory {
     IOperator getOperator(String o);

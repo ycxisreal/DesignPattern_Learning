@@ -1,10 +1,12 @@
-package FactoryPattern;
+package CreationalPatterns.FactoryPattern;
 
-import FactoryPattern.Classes.Add;
-import FactoryPattern.Classes.IOperator;
-import FactoryPattern.FactoryMethod.Factory;
-import FactoryPattern.FactoryMethod.IFactoryMethod;
-import FactoryPattern.SimpleFactory.*;
+import CreationalPatterns.FactoryPattern.Classes.Add;
+import CreationalPatterns.FactoryPattern.Classes.IOperator;
+import CreationalPatterns.FactoryPattern.FactoryMethod.Factory;
+import CreationalPatterns.FactoryPattern.FactoryMethod.IFactoryMethod;
+import CreationalPatterns.FactoryPattern.SimpleFactory.IFactory;
+import CreationalPatterns.FactoryPattern.SimpleFactory.SimpleFactory;
+
 
 import java.util.Scanner;
 

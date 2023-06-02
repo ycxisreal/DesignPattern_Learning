@@ -1,6 +1,7 @@
-package FactoryPattern.FactoryMethod;
+package CreationalPatterns.FactoryPattern.FactoryMethod;
 
-import FactoryPattern.Classes.*;
+import CreationalPatterns.FactoryPattern.Classes.*;
+
 
 public class FactoryBasic extends Factory{
     @Override

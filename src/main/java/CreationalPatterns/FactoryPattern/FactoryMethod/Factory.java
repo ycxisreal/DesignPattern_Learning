@@ -1,6 +1,6 @@
-package FactoryPattern.FactoryMethod;
+package CreationalPatterns.FactoryPattern.FactoryMethod;
 
-import FactoryPattern.Classes.IOperator;
+import CreationalPatterns.FactoryPattern.Classes.IOperator;
 
 public class Factory implements IFactoryMethod{
     @Override

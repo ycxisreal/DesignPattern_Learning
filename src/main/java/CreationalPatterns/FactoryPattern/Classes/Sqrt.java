@@ -1,4 +1,4 @@
-package FactoryPattern.Classes;
+package CreationalPatterns.FactoryPattern.Classes;
 
 public class Sqrt implements IOperator{
     @Override
