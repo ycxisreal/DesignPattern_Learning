@@ -21,6 +21,7 @@ public class DecoratorStarter{
         Equipment s = new Stick();
         s.setMan(man);
         s.attack();
+        System.out.println("狗人捡起来一把宝剑");
         Equipment sword = new Sword();
         sword.setMan(dogMan);
         sword.attack();
