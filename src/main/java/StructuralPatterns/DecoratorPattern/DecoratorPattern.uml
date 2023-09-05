@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StructuralPatterns.DecoratorPattern</OriginalElement>
+  <nodes>
+    <node x="96.0" y="356.0">StructuralPatterns.DecoratorPattern.Classes.Equipment.Sword</node>
+    <node x="-124.0" y="67.5">StructuralPatterns.DecoratorPattern.Classes.Equipment.Equipment</node>
+    <node x="237.5" y="-129.5">StructuralPatterns.DecoratorPattern.DecoratorStarter</node>
+    <node x="-124.0" y="356.0">StructuralPatterns.DecoratorPattern.Classes.Equipment.Stick</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StructuralPatterns.DecoratorPattern.Classes.Equipment.Sword" target="StructuralPatterns.DecoratorPattern.Classes.Equipment.Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="186.0" y="319.0" />
+      <point x="-34.0" y="319.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="StructuralPatterns.DecoratorPattern.Classes.Equipment.Stick" target="StructuralPatterns.DecoratorPattern.Classes.Equipment.Equipment" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="分层紧凑" zoom="1.1487341772151898" showDependencies="true" x="133.84573002754814" y="237.50964187327818" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
